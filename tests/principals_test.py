@@ -78,3 +78,13 @@ def test_get_all_teachers(client, h_principal):
     # Please comment the below part of test code, if the database is changed later.
     for teacher in data:
         assert teacher['user_id'] in [3, 4]
+          
+
+# Test to check the request for invalid route
+def test_invalid_route(client):
+    """
+    failure case: When an invalid route is requested
+    """
+    response = client.get('/teacher-assignment')
+    assert response.status_code == 404
+    assert response.json['error'] == 'NotFound'
