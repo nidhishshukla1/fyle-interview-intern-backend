@@ -63,4 +63,4 @@ pytest -vvv -s tests/
 
 ### Screenshot of Test coverage report (All case passing, 95% code coverage)
 
-![Test-coverage report]([https://drive.google.com/uc?id=1234567890abcdefghijklmnopqrstuvwxyz](https://drive.usercontent.google.com/download?id=1i7949DsbZ3UA139p2Z9--o0BC-SWZdhI))
+![Test-coverage report](https://drive.usercontent.google.com/download?id=1i7949DsbZ3UA139p2Z9--o0BC-SWZdhI)
