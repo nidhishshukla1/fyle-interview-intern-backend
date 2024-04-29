@@ -60,3 +60,7 @@ pytest -vvv -s tests/
 # pytest --cov
 # open htmlcov/index.html
 ```
+
+### Screenshot of Test coverage report (All case passing, 95% code coverage)
+
+![Test-coverage report]([https://drive.google.com/uc?id=1234567890abcdefghijklmnopqrstuvwxyz])
